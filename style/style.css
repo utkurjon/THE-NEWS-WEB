@@ -1,0 +1,342 @@
+@import url(fonts/fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.nav-logo{
+    width: 150px;
+    height: 71px;
+    left: 145px;
+    margin-top: 20px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-content-list{
+    display: flex;
+    gap: 15px;
+}
+
+.header li{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #3A3838;
+}
+
+.header li:hover{
+    color: #EF4423;
+    transition: 200;
+}
+
+.header-content{
+    width: 1110px;
+    height: 272px;
+    left: 145px;
+    top: 106px;
+}
+
+.main-content{
+    display: flex;
+    margin-bottom: 40px;
+        
+    
+}
+
+main{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+
+
+.news-box-1{
+    width: 340px;
+    height: 395px;
+    background: #B71C1C;
+    
+}
+
+.news-box-1 img{
+    width: 340px;
+    height: 175px;
+    
+            
+}
+
+.news-box-1 h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 8px 15px 15px 15px;
+    
+}
+
+.news-box-1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #EBEBEB;
+    margin-left: 15px;
+    margin-bottom: 15px;
+       
+
+}
+    
+
+.news-box-2{
+    width: 340px;
+    height: 395px;
+    left: 0px;
+    top: 414px;
+
+    background: #6A1B9A;
+    
+}
+
+.news-box-2 img{
+    width: 340px;
+    height: 175px;
+                 
+}
+
+.news-box-2 h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+    margin: 15px 15px 0 15px;
+}
+
+.news-box-2 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #EBEBEB;
+    margin: 13px 15px 15px 15px;
+}
+
+
+.news-box-3{
+    width: 340px;
+    height: 395px;
+    background: #303F9F;
+    
+}
+
+
+.news-box-3 img{
+    width: 340px;
+    height: 175px;
+                
+}
+
+.news-box-3 h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    margin: 15px 15px 0px 15px;
+}
+
+.news-box-3 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #EBEBEB;
+    margin: 7px 16px 16px 16px;
+
+
+
+}
+
+
+.news-box-4{
+    width: 340px;
+    height: 395px;
+    background: #00695C;
+}
+
+.news-box-4 img{
+    width: 340px;
+    height: 175px;
+                
+}
+
+
+.news-box-4 h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    margin: 14px 15px;
+}
+
+.news-box-4 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #EBEBEB;
+    margin: 14px 15px;
+}
+
+.second-content{
+    margin-bottom: 40px;
+
+}
+
+.content-box{
+    display: flex;
+}
+
+
+.second-content h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.first-box{
+    width: 555px;
+    height: 531px;
+    left: 130px;
+    top: 900px;
+}
+
+.second-box{
+    width: 1400px;
+    height: 531px;
+    background: #EDEDED;
+    
+}
+
+.second-box img{
+    width: 555px;
+    height: 531px;
+    
+
+}
+
+.second-box h3{
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #3A3838;
+    margin: 20px 145px 30px 30px;
+}
+
+.second-box p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 145px 31px 30px;
+    color: #686868;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-nav{
+    display: flex;
+   
+    
+}
+
+.footer-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.footer a:hover{
+    color: #EF4423;
+    transition: 200;
+}
+
+.footer-logo{
+    width: 150px;
+    height: 71px;
+    left: 145px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    
+    background: #3A3838;
+    
+  
+}
+
